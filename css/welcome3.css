@@ -1,0 +1,171 @@
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 90px;
+	color: #F5F5DC;
+	font-size: 16px;
+	background: #33ccff	;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 0px;
+
+}
+input[type="submit"]:hover 
+{
+	background: gray;
+	color: #262626;
+}
+
+.divScroll {
+overflow:auto;
+height:450px;
+width:583px;
+}
+
+.divScroll2 {
+overflow:auto;
+height:200px;
+width:270px;
+}
+
+#tb1{
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+
+#search{
+	border: none;
+	border-bottom: solid;
+	border-color: gray;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: #fff;
+	font-size: 16px;
+}
+
+#sel{
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	width: 200px;
+}
+
+#sel option{
+	background: rgba(0,0,0,0.9);
+	color: white;
+}
+
+
+button
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 150px;
+	color: #F5F5DC;
+	font-size: 16px;
+	background: #33ccff	;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+button:hover 
+{
+	background: gray;
+	color: #262626;
+}
+
+.activitylog{
+	position: absolute;
+	top: 10%;
+	color: white;
+	font-family: Arial;
+	left: 27%;
+
+}
+
+
+
+.loginBox
+{	
+	color:white;
+	 position: absolute;
+	 top: 15%;
+	 left: 35%;
+	 width: 520px;
+	 height: 420px;
+	 padding: 50px;
+	 box-sizing: border-box;
+	 background: rgba(0,0,0,.8);
+	 border-radius: 5px;
+}
+
+
+
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: solid;
+	border-color: gray;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 90px;
+	color: #F5F5DC;
+	font-size: 16px;
+	background: orange	;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 0px;
+	position: absolute;
+	left: 75%;
+	top: 87%;
+
+}
+.loginBox input[type="submit"]:hover 
+{
+	background: gray;
+	color: #262626;
+}
+.loginBox input[type="button"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 90px;
+	color: #F5F5DC;
+	font-size: 16px;
+	background: #33ccff	;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 0px;
+
+}
+.loginBox input[type="button"]:hover 
+{
+	background: gray;
+	color: #262626;
+}

@@ -1,0 +1,225 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(../images/Background1.jpg);
+	background-size: cover;
+	font-family: Times New Roman;
+}
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute; 
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+.loginBox
+{
+	 position: absolute;
+	 top: 32%;
+	 right: 60%;
+	 text-transform: translate(-50%,-50%);
+	 width: 420px;
+	 height: 365px;
+	 padding: 80px 40px;
+	 box-sizing: border-box;
+	 background: rgba(0,0,0,.7);
+
+}
+.user 
+{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	position: absolute; 
+	top: calc(-100px/2);
+	left: calc(40% );
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.loginBox p 
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: solid;
+	border-color: gray;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+	background: orange	;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+.loginBox input[type="submit"]:hover 
+{
+	background: gray;
+	color: #262626;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}	
+.ok{
+	border: solid;
+	outline: none;
+	height: 20px;
+	border-radius: 5px;
+	border-color: gray;
+
+}
+
+
+.mod {
+	background: rgba(0,0,0,0.5);
+	color:#9aa0a6;
+	width:500px;
+	height:300px;
+	position:absolute;
+	top:35%;
+	left:30%;
+	font:13px Malgun Gothic;
+	border-radius:5px;
+	  -webkit-animation-name: animatetop;
+	  -webkit-animation-duration: 0.4s;
+	  animation-name: animatetop;
+	  animation-duration: 0.4s;
+
+  
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.a{
+	color:black;
+	background:#799dd7;
+	display:block;
+	margin:0 auto;
+	position:absolute;
+	right:30%;
+	top:66%;
+	height:35px;
+	width:200px;
+	border: 1px;
+	border-radius:5px;
+}
+.a2{
+	color:black;
+	background: orange;
+	display:block;
+	margin:0 auto;
+	position:absolute;
+	right:30%;
+	top:83%;
+	height:35px;
+	width:200px;
+	border: 1px;
+	border-radius:5px;
+}
+
+.a:hover 
+{
+	background: gray;
+	color: #262626;
+}
+
+.a2:hover 
+{
+	background: gray;
+	color: #262626;
+}
+
+.e{
+
+	background:rgba(0,0,0,0.5);
+	padding-top:20px;
+	padding-left:20px;
+	color:white;
+	font:20px Malgun Gothic;
+	border-radius:5px;
+}
+
+.f{
+	text-align:left;
+	padding-left:20px;
+	padding-top:30px;
+}
+
+.modelInput{
+	border: none;
+	border-bottom: solid;
+	border-color: gray;
+	background: transparent;
+	outline: none;
+	width:450px;
+	height: 37px; 
+	color: #fff;
+	font-size: 16px;
+}
+
+.ex{
+	display: none;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: yellow;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.g{
+	color: red;
+}
